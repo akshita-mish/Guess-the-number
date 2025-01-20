@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Number Genrator</title>
+</head>
+<body>
+    <div class="top">
+        
+        <h1 id="heading">Guess The Number ?</h1>
+    </div>
+    <div class="body">
+        <select id="level" name="level">
+            <option value="level">Select Level</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+        <p id="selected-level" style="font-size: larger;">Select the level.</p>
+        <br>
+        <input type="number" id="txt" placeholder="Guess the Number" >
+        <br>
+        <p id="para" style="font-size: larger; color: black;background-color: antiquewhite; padding: 20px;">Take your move</p>
+        <button id="restart-btn">Restart Game</button>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
+
